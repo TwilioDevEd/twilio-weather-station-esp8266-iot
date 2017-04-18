@@ -1,7 +1,7 @@
 # twilio-weather-station-esp8266-iot
-Building a weather station with an ESP8266, AWS IoT, and Twilio
+Build a weather station with an ESP8266, AWS IoT, and Twilio.
 
-An example application building a weather station with an ESP8266 and Amazon IoT, Lambda, and Twilio.  Our companion article is located here:
+An example application building a weather station with an ESP8266 and Amazon IoT, Lambda, and Twilio.  You can set preferences from a master number, and get the most recent weather report at any time.  Our companion article is located here:
 
 https://www.twilio.com/docs/tutorials/sms-weather-station-iot-lambda-esp8266
 
@@ -13,6 +13,11 @@ The ESP8266 will connect account to an AWS IoT Account on the MQTT topic 'twilio
 * An outgoing phone number
 * A 'master' phone number
 * An alarm
+
+On the hardware side, you'll need:
+* ESP8266
+* BMP180 Pressure Sensor (or BMP##)
+* DHT11 Humidity Sensor (or DHT##)
 
 For a complete writeup on using Twilio with Amazon Web Services, see these four articles on Twilio's documentation site where we'll take you from beginner to AWS ecosystem master:
 * https://www.twilio.com/docs/guides/receive-reply-sms-mms-messages-using-amazon-api-gateway-lambda
