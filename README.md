@@ -5,7 +5,8 @@ An example application building a weather station with an ESP8266 and Amazon IoT
 
 https://www.twilio.com/docs/tutorials/sms-weather-station-iot-lambda-esp8266
 
-The ESP8266 will connect account to an AWS IoT Account on the MQTT topic 'twilio'.  When users SMS in, it will reply with the current conditions.  It can also handle preference updates for the following things:
+The ESP8266 will connect account to an AWS IoT Account on the MQTT topic 'twilio'.  When users SMS (or MMS) the station, it will reply with the current weather conditions.  It can also handle preference updates over the air for the following settings:
+
 * Units (Imperial vs. Metric)
 * Altitude
 * Timezone offset from UTC
@@ -51,7 +52,8 @@ git clone https://github.com/TwilioDevEd/twilio-weather-station-esp8266-iot.git
 * [ESP8266 AWS SDK for Arduino IDE](https://www.twilio.com/docs/documents/21/aws-sdk-arduino-esp8266.zip)
 
 Open 'twilio-weather-station-esp8266-iot' in Arduino IDE
-# Edit the credentials, change desired settings...
+
+## Edit the credentials, change desired settings...
 Compile and Upload to the board!
 
 ## Run example:
