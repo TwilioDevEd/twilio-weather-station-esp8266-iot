@@ -31,7 +31,7 @@ For a complete writeup on using Twilio with Amazon Web Services, see these four 
 ### AWS Lambda, IoT, Gateway Explorer
 You will need an AWS account.  Set up Lambda IoT and add the security necessary for your ESP8266.
 
-Note: Both Lambda functions require the Twilio Python helper library.  To see how to install external libraries on Lambda, see [this article](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
+Note: Both Lambda functions require the Twilio Python helper library.  To see how to install external libraries on Lambda, see [this article](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html). Also see this Repo: https://github.com/TwilioDevEd/Twilio-AWS-IoT-ESP8266-Example
 
 For sending SMS/MMS messages, use IoT on the 'twilio' channel as a trigger with the SQL of "SELECT * FROM 'twilio' WHERE Type='Outgoing'".  You must not use SQL version 2016-3-23(!), it will not work with null-terminated strings!
 
