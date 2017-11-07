@@ -70,7 +70,7 @@ Look in the Python file to see what other options we've added for help/setting v
 
 ## Motivations
 
-To show how to use Twilio SMS capabilities plus the AWS ecosystem to do remot monitoring!  Hopefully the infrastructure details of this article help you build your own _Thing_.
+To show how to use Twilio SMS capabilities plus the AWS ecosystem to do remote monitoring!  Hopefully the infrastructure details of this article help you build your own _Thing_.
 ## Meta & Licensing
 
 * [MIT License](http://www.opensource.org/licenses/mit-license.html)
