@@ -1,4 +1,8 @@
 # twilio-weather-station-esp8266-iot
+> This repository is archived and no longer maintained. The companion blog post is [still available on the Twilio blog](https://www.twilio.com/blog/twilio-weather-station-amazon-aws-iot-lambda-esp8266).
+
+---
+
 Build a weather station with an ESP8266, AWS IoT, and Twilio.
 
 An example application building a weather station with an ESP8266 and Amazon IoT, Lambda, and Twilio.  You can set preferences from a master number, and get the most recent weather report at any time.  Our companion blog post is located here:
